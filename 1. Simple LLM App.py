@@ -3,7 +3,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 import os
 
 # Set your OpenAI API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCBpGHIaubNnku2U3I2Fm3PCkQ3ldfHxRA"
+os.environ["GOOGLE_API_KEY"] = "api_key"
 
 # Function to load answer from OpenAI
 def load_answer(question):
