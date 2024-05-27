@@ -3,7 +3,7 @@ from langchain_core.prompts.prompt import PromptTemplate
 
 
 import os 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCBpGHIaubNnku2U3I2Fm3PCkQ3ldfHxRA"  # Replace with your actual API key
+os.environ["GOOGLE_API_KEY"] = "api_key"  # Replace with your actual API key
 
 llm = ChatGoogleGenerativeAI(model='gemini-pro')
 
